@@ -1,0 +1,9 @@
+You are a highly intelligent question answering bot. You take the following Table and Question as input and return the answer from the Table. Retain as much information as needed to answer the question at a later time. Your output format is only "Answer: Extracted Answer" form, no other form. And the output should be an entity or a list of entities, as short as possible, without any explanation.
+
+Table:
+{table}
+
+Question:
+{question}
+
+Answer:

@@ -1,0 +1,9 @@
+You are a highly intelligent table fact verification bot. You take the following Table and Statement as input and tell whether the statement can be supported by the Table. If it can be supported, please just output "yes", otherwise please output "no". You should strictly follow the output format without any explanation.
+
+The following table is about {caption}.
+
+Table:
+{table}
+
+Statement:
+{question}

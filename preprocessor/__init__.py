@@ -1,0 +1,11 @@
+from .bbh import get_prompt_templates as bbh_get_prompt_templates
+from .bbh import preprocess_function as bbh_preprocess_function
+from .common_gen import get_prompt_templates as common_gen_get_prompt_templates
+from .common_gen import preprocess_function as common_gen_preprocess_function
+from .sqa import get_prompt_templates as sqa_get_prompt_templates
+from .sqa import preprocess_function as sqa_preprocess_function
+from .tabfact import get_prompt_templates as tabfact_get_prompt_templates
+from .wikisql import get_prompt_templates as wikisql_get_prompt_templates
+from .wikisql import preprocess_function as wikisql_preprocess_function
+from .wikitablequestion import get_prompt_templates as wikitablequestions_get_prompt_templates
+from .wikitablequestion import preprocess_function as wikitablequestions_preprocess_function
