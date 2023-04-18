@@ -1,11 +1,11 @@
 # Examining the Power of Symbolic Tasks in Instruction Tuning
 
-This is the official repository for the paper ["From Zero to Hero: Examining the Power of Symbolic Tasks in Instruction Tuning"](). In this paper, we introduce a straightforward yet effective method for enhancing instruction tuning by employing symbolic tasks. 
+This is the official repository for the paper ["From Zero to Hero: Examining the Power of Symbolic Tasks in Instruction Tuning"](https://arxiv.org/abs/2304.07995). In this paper, we introduce a straightforward yet effective method for enhancing instruction tuning by employing symbolic tasks. 
 
 <img src="misc/tapex-zero.jpg" align="middle" width="95%">
 
 # 🔥 Updates
-- [**2023-4-18**] We released our [paper](arxiv.org), [codes](https://github.com/sail-sg/TAPEX-Zero), [dataset](https://huggingface.co/datasets/sail/symbolic-instruction-tuning) and [models](https://huggingface.co/models?search=sail/tapex-zero). Check it out!
+- [**2023-4-18**] We released our [paper](https://arxiv.org/abs/2304.07995), [codes](https://github.com/sail-sg/TAPEX-Zero), [dataset](https://huggingface.co/datasets/sail/symbolic-instruction-tuning) and [models](https://huggingface.co/models?search=sail/tapex-zero). Check it out!
 
 
 # 🏴󠁶󠁵󠁭󠁡󠁰󠁿 Overview
@@ -133,6 +133,7 @@ If you find our work is helpful, please cite as:
 @article{liu2023zero,
   title={From Zero to Hero: Examining the Power of Symbolic Tasks in Instruction Tuning},
   author={Liu, Qian and Zhou, Fan and Jiang, Zhengbao and Dou, Longxu and Lin, Min},
+  eprint={2304.07995},
   year={2023}
 }
 ```
