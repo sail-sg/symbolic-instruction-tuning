@@ -5,7 +5,7 @@ This is the official repository for the paper ["From Zero to Hero: Examining the
 <img src="misc/tapex-zero.jpg" align="middle" width="95%">
 
 # 🔥 Updates
-- [**2023-4-18**] We released our [paper](https://arxiv.org/abs/2304.07995), [codes](https://github.com/sail-sg/TAPEX-Zero), [dataset](https://huggingface.co/datasets/sail/symbolic-instruction-tuning) and [models](https://huggingface.co/models?search=sail/tapex-zero). Check it out!
+- [**2023-4-18**] We released our [paper](https://arxiv.org/abs/2304.07995), [codes](https://github.com/sail-sg/symbolic-instruction-tuning), [dataset](https://huggingface.co/datasets/sail/symbolic-instruction-tuning) and [models](https://huggingface.co/models?search=sail/tapex-zero). Check it out!
 
 
 # 🏴󠁶󠁵󠁭󠁡󠁰󠁿 Overview
