@@ -61,7 +61,8 @@ pip install -r requirements.txt
 
 ### Multi-Task Instruction Tuning
 
-For `tapex-zero-large`, you can run the following command. Note that the config is for `1` GPU card with `40G` memory. You can adjust the card number in `train_config.yaml` and batch size in arguments according to your own environment.
+To run `tapex-zero-large`, use the following command while keeping in mind that the configuration is designed for a single GPU card with 40GB of memory. If needed, you can adjust the number of GPU cards in `train_config.yaml` and the batch size using the arguments to match your specific computing environment.
+
 
 ```shell
 accelerate launch --config_file train_config.yaml train_model.py \
@@ -93,7 +94,8 @@ accelerate launch --config_file train_config.yaml train_model.py \
   --run_name tapex_zero_large
 ```
 
-For `tapex-zero-xl`, you can run the following command. Note that the config is for `1` GPU card with `40G` memory.
+To run `tapex-zero-xl`, use the following command, keeping in mind that the configuration is intended for a single GPU card with 40GB of memory. Please note that the `--bf16` flag is only compatible with A100 hardware and has not been tested on other hardware configurations.
+
 
 ```shell
 deepspeed train_model.py \
